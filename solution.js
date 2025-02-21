@@ -20,7 +20,7 @@ function computeConstantTerm(data) {
     .sort((a, b) => (a.x < b.x ? -1 : a.x > b.x ? 1 : 0))
     .slice(0, k);
 
-  // Lagrange interpolation
+  // Lagrange interpolation method
   let sumNum = 0n, sumDen = 1n;
   for (let i = 0; i < points.length; i++) {
     const xi = points[i].x, yi = points[i].y;
