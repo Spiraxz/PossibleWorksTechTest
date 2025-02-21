@@ -12,3 +12,7 @@
 3. **Run**:
    ```bash
    node solution.js
+4. **Output**:
+   ```bash
+   Output of testcase1.json: 3 (c value)
+   Output of testcase2.json: 271644355478965 (c value)
