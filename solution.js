@@ -40,5 +40,5 @@ function computeConstantTerm(data) {
 const files = ['testcase1.json', 'testcase2.json']; // insert files here
 files.forEach(file => {
   const data = JSON.parse(fs.readFileSync(file, 'utf-8'));
-  console.log(`Output of ${file}: ${computeConstantTerm(data).toString()}`);
+  console.log(`Output of ${file}: ${computeConstantTerm(data).toString()} (c value)`);
 });
